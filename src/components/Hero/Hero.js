@@ -31,7 +31,7 @@ const Hero = () => {
                     <HeroHeader> Hello, World </HeroHeader> 
                     <HeroP> Scroll to learn more </HeroP>
                     <HeroBtnWrapper>
-                        <Button primary="true" dark="true" onMouseEnter={onHover} onMouseLeave={onHover} to="register">
+                        <Button to="register" primary="true" dark="true" onMouseEnter={onHover} onMouseLeave={onHover}>
                             Get Started {hover ? <ArrowForward/> : <ArrowRight/> }
                         </Button>
                     </HeroBtnWrapper>
