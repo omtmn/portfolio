@@ -31,11 +31,11 @@ const Sidebar = ({ isOpen, toggle }) => {
                         Contact
                     </SidebarLink>
                 </SidebarMenu>
-                {/* <SideBtnWrap>
+                <SideBtnWrap>
                     <SidebarRoute to='/login'>
                         Sign In
                     </SidebarRoute>
-                </SideBtnWrap> */}
+                </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>
     )
