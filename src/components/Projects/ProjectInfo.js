@@ -37,7 +37,7 @@ const ProjectInfo = () => {
                     <Heading>Past Work</Heading>
                   </Fade>
                   <Fade left>
-                    <Subtitle> Im a Software Engineer, and a BloomTech Alumni. As a developer I thrive in an organized, productive environment that encourages honesty and communication allowing me to be the best I can for the company and myself. If you have a project you think I could help with, please get in touch.</Subtitle>
+                    <Subtitle> Here are some of the projects I had the opprotunity to work on during my journey as a Software Engineer. For more information on a specific project, click the image and It will direct you to the github repository where the ReadMe should explain the project.</Subtitle>
                   </Fade>
                   <BtnWrap>
                     <Button

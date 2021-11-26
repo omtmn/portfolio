@@ -25,13 +25,13 @@ const Projects = () => {
                     <a href="https://www.youtube.com"> <img src={img1} alt="project one"/> </a>
                 </Wrap>
                 <Wrap>
-                    <a href="https://www.youtube.com"> <img src={img2} alt="project two"/> </a>
+                    <a href="https://www.youtube.com"> <img src={img1} alt="project two"/> </a>
                 </Wrap>
                 <Wrap>
-                    <a href="https://www.youtube.com"> <img src={img3} alt="project three"/> </a>
+                    <a href="https://www.youtube.com"> <img src={img1} alt="project three"/> </a>
                 </Wrap>
                 <Wrap>
-                    <a href="https://www.youtube.com"> <img src={img4} alt="project four"/> </a>
+                    <a href="https://www.youtube.com"> <img src={img1} alt="project four"/> </a>
                 </Wrap>
             </Carousel>
         </CarouselWrap>
