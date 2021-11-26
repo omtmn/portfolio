@@ -1,4 +1,4 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import {
   Nav,
@@ -13,9 +13,23 @@ import {
 } from "./NavEl";
 
 const Navbar = ({ toggle }) => {
+  const [scroll, setScroll] = useState(false)
+
+  const navOpacity = () => {
+    if(window.scrollY >= 100) {
+      setScroll(true)
+    } else {
+      setScroll(false)
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', navOpacity)
+  }, [])
+
   return (
     <>
-      <Nav>
+      <Nav scroll={scroll}>
         <NavbarContainer>
           <NavLogo to="/"> Portfolio </NavLogo>
           <MobileMenu onClick={toggle}>
