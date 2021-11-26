@@ -14,7 +14,6 @@ import {
   ArrowRight,
 } from "./HeroEl";
 import { Button } from "../ButtonEl";
-import SpecialButton from "../fun/SpecialButton";
 
 const Hero = () => {
   const [hover, setHover] = useState(false);
