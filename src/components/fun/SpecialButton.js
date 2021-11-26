@@ -14,7 +14,7 @@ const SpecialButton = () => {
         ref={(ref) => { reward = ref }}
         type="confetti"
       >
-        <Button onClick={handleFun}><Anchor href={res} download="Alex Edwards.pdf">Resume</Anchor></Button>
+        <Button onClick={handleFun}><Anchor href={res} download="Alex Edwards.pdf">Download Resume</Anchor></Button>
       </Reward>
     </>
   );
