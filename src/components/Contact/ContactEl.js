@@ -51,27 +51,6 @@ export const TextWrapper = styled.div`
   padding-bottom: 60px;
 `;
 
-export const TopLine = styled.p`
-  color: #6C63FF;
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 700;
-  letter-spacing: 1.4px;
-  text-transform: uppercase;
-  margin-bottom: 16px;
-`;
-
-export const Heading = styled.h1`
-  margin-bottom: 24px;
-  font-size: 48px;
-  line-height: 1.1;
-  font-weight: 600;
-  color: ##6C63FF;
-  @media screen and (max-width: 480px) {
-    font-size: 32px;
-  }
-`;
-
 export const Subtitle = styled.p`
   max-width: 440px;
   margin-bottom: 35px;
@@ -115,6 +94,7 @@ export const Item = styled.a `
     color: #fff;
     text-decoration: none;
     &:hover {
-        color: #6C63FF;
-    }
+    transition: all 0.2s ease-in-out;
+    color: #0F52BA;
+  }
 `

@@ -29,7 +29,7 @@ const Hero = () => {
       <HeroContent>
         <Fade top>
           <HeroHeader> Hello, World </HeroHeader>
-          <HeroP> Scroll to get to know me </HeroP>
+          <HeroP> Click below to contact <br/> or scroll to learn more </HeroP>
           <HeroBtnWrapper>
             <Button
               to="register"

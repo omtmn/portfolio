@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
-import svg2 from '../../assets/svg-2.svg'
 import Projects from "./Projects";
 import {
   AboutContainer,
@@ -13,7 +12,6 @@ import {
   BtnWrap,
   TextWrapper,
   ImgWrap,
-  Img,
   Column2,
   ArrowForward,
   ArrowRight,

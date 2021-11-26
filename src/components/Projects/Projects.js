@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel, Wrap, CarouselWrap, Heading } from './ProjectsEl'
+import { Carousel, Wrap, CarouselWrap } from './ProjectsEl'
 import img1 from "../../assets/pic1.jpeg"
 import img2 from "../../assets/pic2.jpeg"
 import img3 from "../../assets/pic3.jpeg"
@@ -12,7 +12,7 @@ const Projects = () => {
     let settings = {
         dots: true,
         infinite: true,
-        speed: 600,
+        speed: 900,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
