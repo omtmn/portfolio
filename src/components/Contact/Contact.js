@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import svg1  from '../../assets/svg-1.svg'
 import Fade from "react-reveal/Fade";
+import res from '../../assets/resume.pdf'
 import {
   AboutContainer,
   AboutWrapper,
@@ -46,17 +47,21 @@ const Contact = () => {
                         <List>
                             <Item href="mailto:alexscodespace@gmail.com">Email</Item>
                         </List>
+                        <List>
+                            <Item href=""><a href={res} download="Alex Edwards.pdf">Download Resume</a></Item>
+                        </List>
                     </Subtitle>
                   </Fade>
                   <BtnWrap>
                     <Button
+                      smooth={true} duration={700} spy={true} exact='true'
                       primary="true"
                       dark="true"
                       to="home"
                       onMouseEnter={onHover}
                       onMouseLeave={onHover}
                     >
-                      Back to top {hover ? <ArrowForward /> : <ArrowRight />}
+                      Back to home {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                   </BtnWrap>
                 </TextWrapper>

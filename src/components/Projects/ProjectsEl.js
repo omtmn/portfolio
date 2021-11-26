@@ -4,7 +4,7 @@ import Slider from 'react-slick'
 export const Carousel = styled(Slider) `
     display: flex;
     justify-content: center;
-    width: 85%;
+    width: 100%;
     ul li button {
         &:before {
             font-size: 10px;

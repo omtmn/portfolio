@@ -1,4 +1,3 @@
-import React from "react";
 import {
   SidebarContainer,
   Icon,
@@ -6,8 +5,6 @@ import {
   SidebarWrapper,
   SidebarMenu,
   SidebarLink,
-  SideBtnWrap,
-  SidebarRoute,
 } from "./SidebarEl";
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -31,9 +28,6 @@ const Sidebar = ({ isOpen, toggle }) => {
             Contact
           </SidebarLink>
         </SidebarMenu>
-        <SideBtnWrap>
-          <SidebarRoute to="/login">Sign In</SidebarRoute>
-        </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
   );

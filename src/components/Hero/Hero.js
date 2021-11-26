@@ -32,13 +32,14 @@ const Hero = () => {
           <HeroP> Click below to contact <br/> or scroll to learn more </HeroP>
           <HeroBtnWrapper>
             <Button
-              to="register"
+            smooth={true} duration={700} spy={true} exact='true'
+              to="contact"
               primary="true"
               dark="true"
               onMouseEnter={onHover}
               onMouseLeave={onHover}
             >
-              Get Started {hover ? <ArrowForward /> : <ArrowRight />}
+              Contact {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
           </HeroBtnWrapper>
         </Fade>

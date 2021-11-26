@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
+import SpecialButton from '../fun/SpecialButton'
 import { animateScroll as scrollNav } from 'react-scroll'
 import {
   Nav,
@@ -10,7 +11,6 @@ import {
   NavItem,
   NavLinks,
   NavBtn,
-  NavBtnLink,
 } from "./NavEl";
 
 const Navbar = ({ toggle }) => {
@@ -55,7 +55,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/login">Sign In</NavBtnLink>
+            <SpecialButton/>
           </NavBtn>
         </NavbarContainer>
       </Nav>

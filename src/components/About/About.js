@@ -42,6 +42,7 @@ const About = () => {
                 </Fade>
                 <BtnWrap>
                   <Button
+                  smooth={true} duration={700} spy={true} exact='true'
                     primary="true"
                     dark="true"
                     onMouseEnter={onHover}
