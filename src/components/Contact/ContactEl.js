@@ -29,7 +29,7 @@ export const AboutRow = styled.div`
     imgStart ? `'col2 col1'` : `'col1 col2'`};
   @media screen and (max-width: 768px) {
     grid-template-areas: ${({ imgStart }) =>
-      imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
+      imgStart ? `'col1' 'col1'` : `'col1 col1' 'col2 col2'`};
   }
 `;
 
@@ -66,7 +66,7 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? "#f7f8f8" : "#0F52BA")};
+  color: ##6C63FF;
   @media screen and (max-width: 480px) {
     font-size: 32px;
   }
@@ -105,3 +105,16 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
   margin-left: 8px;
   font-size: 20px;
 `;
+
+export const List = styled.ul `
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+`
+
+export const Item = styled.a `
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+        color: #6C63FF;
+    }
+`
