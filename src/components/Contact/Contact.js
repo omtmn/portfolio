@@ -29,7 +29,7 @@ const Contact = () => {
   
     return (
         <>
-        <AboutContainer>
+        <AboutContainer id='contact'>
           <AboutWrapper>
             <AboutRow>
               <Column1>

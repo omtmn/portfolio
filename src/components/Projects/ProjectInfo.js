@@ -27,7 +27,7 @@ const ProjectInfo = () => {
 
     return (
         <>
-        <AboutContainer>
+        <AboutContainer id='projects'>
           <AboutWrapper>
             <AboutRow>
               <Column1>
