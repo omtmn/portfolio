@@ -13,7 +13,7 @@ const SpecialButton = () => {
         ref={(ref) => { reward = ref }}
         type="confetti"
       >
-        <Button onClick={handleFun}>🎉</Button>
+        <Button onClick={handleFun}>Confetti</Button>
       </Reward>
     </>
   );
