@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Reward from "react-rewards";
 import svg1 from "../../assets/svg-1.svg";
 import Fade from "react-reveal/Fade";
 import res from "../../assets/resume.pdf";
@@ -25,10 +24,6 @@ import { Heading } from "../About/AboutEl";
 
 const Contact = () => {
   const [hover, setHover] = useState(false);
-  let reward;
-  const handleFun = () => {
-    reward.rewardMe();
-  };
   const onHover = () => {
     setHover(!hover);
   };
@@ -67,18 +62,11 @@ const Contact = () => {
                   </Subtitle>
                 </Fade>
                 <BtnWrap>
-                  <Reward
-                    ref={(ref) => {
-                      reward = ref;
-                    }}
-                    type="confetti"
-                  >
                     <Button
                       smooth={true}
                       duration={2500}
                       spy={true}
                       exact="true"
-                      onClick={handleFun}
                       to="home"
                       primary="true"
                       dark="true"
@@ -87,7 +75,6 @@ const Contact = () => {
                     >
                       Back to home {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
-                  </Reward>
                 </BtnWrap>
               </TextWrapper>
             </Column1>
