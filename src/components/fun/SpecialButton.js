@@ -1,6 +1,6 @@
 import React from "react";
 import Reward from "react-rewards";
-import { Button } from "./SpecialButtonEl";
+import { Button, Anchor } from "./SpecialButtonEl";
 import res from '../../assets/resume.pdf'
 
 const SpecialButton = () => {
@@ -14,7 +14,7 @@ const SpecialButton = () => {
         ref={(ref) => { reward = ref }}
         type="confetti"
       >
-        <Button onClick={handleFun}><a href={res} download="Alex Edwards.pdf">Resume</a></Button>
+        <Button onClick={handleFun}><Anchor href={res} download="Alex Edwards.pdf">Resume</Anchor></Button>
       </Reward>
     </>
   );

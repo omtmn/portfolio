@@ -16,7 +16,8 @@ import {
   ArrowForward,
   ArrowRight,
   List,
-  Item
+  Item,
+  Anchor
 } from "./ContactEl";
 import { Button } from "../ButtonEl";
 import { Heading } from "../About/AboutEl";
@@ -48,7 +49,7 @@ const Contact = () => {
                             <Item href="mailto:alexscodespace@gmail.com">Email</Item>
                         </List>
                         <List>
-                            <Item href=""><a href={res} download="Alex Edwards.pdf">Download Resume</a></Item>
+                            <Item href=""><Anchor href={res} download="Alex Edwards.pdf">Download Resume</Anchor></Item>
                         </List>
                     </Subtitle>
                   </Fade>

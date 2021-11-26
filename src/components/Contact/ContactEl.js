@@ -98,3 +98,12 @@ export const Item = styled.a `
     color: #0F52BA;
   }
 `
+
+export const Anchor = styled.a `
+  color: #fff;
+    text-decoration: none;
+    &:hover {
+    transition: all 0.2s ease-in-out;
+    color: #0F52BA;
+  }
+`
