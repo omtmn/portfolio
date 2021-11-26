@@ -77,10 +77,10 @@ export const NavLinks = styled(LinkScroll)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
-  &.active {
-    border-bottom: 3px solid #0f52ba; /* on click event when nav link is active, border bottom */
-  }
-`;
+    &:hover {
+      border-bottom: 3px solid #6C63FF; /* on click event when nav link is active, border bottom */
+    };
+`
 
 export const NavBtn = styled.nav`
   display: flex;

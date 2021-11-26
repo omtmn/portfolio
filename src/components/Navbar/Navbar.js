@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
+import { animateScroll as scrollNav } from 'react-scroll'
 import {
   Nav,
   NavbarContainer,
@@ -23,6 +24,10 @@ const Navbar = ({ toggle }) => {
     }
   }
 
+  const toggleHome = () => {
+    scrollNav.scrollToTop()
+  }
+
   useEffect(() => {
     window.addEventListener('scroll', navOpacity)
   }, [])
@@ -31,22 +36,22 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav scroll={scroll}>
         <NavbarContainer>
-          <NavLogo to="/"> Portfolio </NavLogo>
+          <NavLogo onClick={toggleHome} to="/"> Portfolio </NavLogo>
           <MobileMenu onClick={toggle}>
             <FaBars />
           </MobileMenu>
           <NavMenu>
             <NavItem>
-              <NavLinks to="home">Home</NavLinks>
+              <NavLinks smooth={true} duration={700} spy={true} exact='true' offset={-80} to="home">Home</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="about">About</NavLinks>
+              <NavLinks smooth={true} duration={700} spy={true} exact='true' offset={-80} to="about">About</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="projects">Projects</NavLinks>
+              <NavLinks smooth={true} duration={700} spy={true} exact='true' offset={-80} to="projects">Projects</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="contact">Contact</NavLinks>
+              <NavLinks smooth={true} duration={700} spy={true} exact='true' offset={-80} to="contact">Contact</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
