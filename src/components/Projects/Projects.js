@@ -1,5 +1,6 @@
 import React from 'react'
 import { Carousel, Wrap, CarouselWrap } from './ProjectsEl'
+import img1 from "../../assets/pic1.jpeg"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"
 
