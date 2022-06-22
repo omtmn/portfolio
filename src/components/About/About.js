@@ -38,7 +38,7 @@ const About = () => {
                   <Heading>Alex Edwards</Heading>
                 </Fade>
                 <Fade left>
-                  <Subtitle> Im a Software Engineer, and a BloomTech Alumni. As a developer I thrive in an organized, productive environment that encourages honesty and communication allowing me to be the best I can for the company and myself. If you have a project you think I could help with, please get in touch.</Subtitle>
+                  <Subtitle> Full-Stack Developer with a strong foundation in Javascript, Python, and Java. Articulate, comfortable, and best when placed in an organized, productive environment. Most motivated when I can be dedicated to embracing and learning new technologies which are ever-evolving.</Subtitle>
                 </Fade>
                 <BtnWrap>
                   <Button
