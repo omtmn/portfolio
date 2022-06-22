@@ -47,10 +47,10 @@ const Contact = () => {
                       </Item>
                     </List>
                     <List>
-                      <Item href="https://github.com/omtmn">Github</Item>
+                      <Item href="https://github.com/beyoutoday">Github</Item>
                     </List>
                     <List>
-                      <Item href="mailto:alexscodespace@gmail.com">Email</Item>
+                      <Item href="mailto:alexcancode16@gmail.com">Email</Item>
                     </List>
                     <List>
                       <Item href="">

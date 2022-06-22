@@ -37,7 +37,7 @@ const ProjectInfo = () => {
                     <Heading>Past Work</Heading>
                   </Fade>
                   <Fade left>
-                    <Subtitle> Here are some of the projects I had the opprotunity to work on during my journey as a Software Engineer. For more information on a specific project, click the image and It will direct you to the github repository where the ReadMe should explain the project.</Subtitle>
+                    <Subtitle> Here are some of the projects I had the opprotunity to work on during my journey as a developer. For more information on a specific project, click the image and It will direct you to the github repository where the ReadMe will explain the project.</Subtitle>
                   </Fade>
                   <BtnWrap>
                     <Button
